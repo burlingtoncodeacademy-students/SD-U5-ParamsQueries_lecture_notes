@@ -4,7 +4,7 @@ const router = require('express').Router();
 /* 
 * Quick Challenge:
     - Frame a GET route
-        - No endpoing is required to access. It will "Get All" based off /routes
+        - No endpoint is required to access. It will "Get All" based off /routes
             - note: Where is "/routes" coming from?
     
     No need to work through the logic within the code block.
@@ -21,6 +21,12 @@ const router = require('express').Router();
         
         "1" would reference a paramter or fleible string to reference.
             - This could be a name of something or value expected to target.
+*/
+
+// TODO Query
+/* 
+    - Anything after the endpoint can be extracted from it.
+    ex: /routes/query/?firstName="Joe"
 */
 
 module.exports = router;

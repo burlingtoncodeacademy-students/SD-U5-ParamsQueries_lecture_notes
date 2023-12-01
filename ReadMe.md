@@ -8,12 +8,17 @@ There are two different branches associated with this lesson.
 ### Before Getting Started
 - **Postman** is installed. Download link below.
 - **Nodemon** is installed. Download link below.
+- If cloning this project, be sure to:
+  - run a `npm install` within the project
+    - This will install `express` for the build and allow for you to run the project.
 
 ### Topics Covered
 - Parameters
+- Query
 
 ### What Should Already Be Understood
 - How to spin up an Express server project
+  - File / Folder structure
 - Postman introduction
 - Express server initialization
 - Introduction to controller routes (req, res)
@@ -33,3 +38,7 @@ There are two different branches associated with this lesson.
 - [npm](https://www.npmjs.com/)
 - [Nodemon](https://nodemon.io/)
 - [Expressjs](https://expressjs.com/en/guide/routing.html)
+
+## Additional Notes:
+Be careful in how data is passed through a URL.
+- The address bar can be public information if you are on an unsecured network.
