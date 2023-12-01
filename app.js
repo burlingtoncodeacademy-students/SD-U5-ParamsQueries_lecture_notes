@@ -5,8 +5,6 @@ const PORT = 4000;
 
 //* MIDDLEWARE
 app.use(express.json());
-app.use(express.static(`${__dirname}/public`));
-app.use(express.urlencoded());
 
 //* CONTROLLERS
 
